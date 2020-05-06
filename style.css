@@ -1,0 +1,420 @@
+.menu-icon {
+    display: none;
+    text-align: right;
+    padding: 20px;
+    font-size: 40px;
+}
+.headline p {
+    margin-right: 150px; 
+    margin-left: 150px;
+}
+/*header*/
+.header{
+    background-color: #4169e1;
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+    height: 50px;
+
+}
+
+li{
+    display: inline-block;
+}
+
+
+.icons {
+    width: 25%;
+    float: left;
+}
+.button {
+    width: 35%;
+    float: left;
+}
+
+.title{
+    padding-top: 10px;
+    font-size: 18px;
+    width: 40%;
+    float: left;
+}
+
+
+li{
+    margin-right: 10px;
+}
+
+.a{
+    margin-right: 5px;
+}
+
+/*header*/
+.header2 {
+    width: 100%;
+}
+
+.e{
+   width: 60%;
+   float: left;
+
+}
+.logo{
+   text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 30%;
+    float: left;
+}
+
+
+.e ul .list{
+    padding-top: 5px;
+    margin-top: 10px;
+    text-align: center;
+    height: 30px;
+    font-size: 14pt;
+    color: black;
+    text-emphasis-style: none;
+}
+.list a {
+    text-decoration: none;
+}
+.monthly {
+    display: block;
+    margin-top: 20px;
+}
+.list:hover{
+  
+    background-color: royalblue; border-radius:50px; width: 100px;
+}
+
+/*introduction*/
+.intro{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #f7f8fa;    
+}
+
+.heading{
+    font-size: 34px;
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.in{
+    padding-left: 265px;
+    padding-right: 260px;
+    font-size: 17px;
+    color: gray;
+}
+
+/* table */
+.table{
+    width: 100%;
+ 
+   
+
+}
+
+.tab1, .tab2, .tab3, .tab4{
+    text-align: center;
+    color: white;
+    line-height:0.5em ;
+    width: 25%;
+    float: left;
+    padding-top: 70px;
+    background-color: royalblue;  
+}
+
+
+/*doings*/
+.doing{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #f7f8fa;
+    
+}
+
+.one, .two{
+    width: 100%;
+    float: none;
+    color: blue;
+    display: inline-block;
+    background-color: white;
+    width: 320px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+margin-right: 20px;
+    padding-top: 30px;
+    box-shadow: 5px 8px 20px 5px rgba(0, 0, 0, 0.16);
+}
+
+/*project & event*/
+
+.project{
+    width: 100%;
+    padding-left: 50px;
+    color: blue;
+}
+.health,.house, .it, .area{
+    background-color: #f7f8fa;
+    display: inline-block;
+    width: 40%;
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 5px;
+margin-right: 20px;
+    margin-bottom: 10px;    
+} 
+.footer div {
+    line-height: 1.8em;
+    padding-left:20px;
+}
+h4, .img{
+margin-right: 10px;
+    font-size: 14px;
+    display: inline-block;
+}
+.me {
+    width: 100%;
+}
+/*event*/
+
+.mission, .event{
+   float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.mission {
+    width: 60%;
+}
+.gallery {
+    width: 100%;
+}
+.event{
+    width: 40%;
+    
+    padding-top: 70px;
+}
+body {
+    margin: 0px;
+}
+/*footer*/
+.footer{
+    width: 100%;
+    height: 280px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #25272e;
+    color: gray;
+}
+
+.address, .link {
+    float: left;
+    width: 30vw
+}
+.contact {
+    float: left;
+    width: 30vw;
+}
+
+/*footer*/
+footer{
+    background-color: royalblue;
+}
+
+.footer2{
+    background-color: royalblue;
+    color: white;
+    height: 50px;
+}
+
+.ft{
+    margin-left: 150px;
+    padding-top: 8px;
+    font-size: 11pt;
+}
+/* This is for tablet */
+
+@media screen and (max-width: 1200px) {
+    .in{
+        padding-left: 100px;
+        padding-right: 100px;        
+    } 
+       
+   .footer {
+       height: 500px;
+   }
+   .event {
+       display: block;
+       padding-top: 5px;
+       margin-top: 5px;
+       
+       text-align: center;
+       padding-bottom: 110px;
+   }
+   h5 span {
+       display: block;
+       padding-top: 15px;
+   }
+   .header{
+       height: 50px;
+   }
+   .icons{
+       width: 30%;
+       float: left;
+   }
+   .button{
+        width:30%;
+        float:left;
+   }
+   .title{
+       width: 40%;
+       float:left;
+   }
+   .project div a img {
+       width: 30px;
+       height: 15px;
+   }
+   .table div {
+       background-color: royalblue;
+   }
+
+   .gallery{
+    width: 50%;
+    float: none;
+    
+}
+.gallery .images div{
+    width: 30%;
+    
+}
+}
+/* For Normal Mobile */
+@media screen and (max-width: 992px) {
+    .icons,.button,.title {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .header {
+        height: 110px;
+    }
+   
+    .doing div {
+       
+        margin-left: 0px;
+        margin-right: 0px;
+    } 
+    .table div{
+        width:50%;
+        float: left;
+    }
+
+    .doing{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .doing div {
+        width: 50%;
+        float: left;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+ 
+    .project div{
+        width: 50%;
+        float: left;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .event div{
+        width: 100%;
+        padding-right: 200px;
+    }
+    .gallery .images div{
+        width: 30%;
+        
+    }
+
+    .address, .link, .contact{
+        width: 100%;
+        min-width: 500px;
+    }
+    .mission {
+        width: 100%;
+    }
+    .event {
+        text-align: left;
+        margin-left: 50px;
+    }
+ 
+
+
+}
+@media screen and (max-width: 768px) { 
+    .header {
+        height: 140px;
+        min-width: 500px;
+        width: 100%;
+
+    }
+    body {
+        min-width: 500px;
+        width: 100%;
+    }
+    .e {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .headline p {
+        margin-right: 20px;
+        margin-left: 20px;
+        min-width: 500px;
+    }
+    .in {
+        padding-right: 20px;
+        padding-left: 20px;
+        min-width: 500px;
+    }
+    .table div {
+        width: 100%;
+        min-width: 500px;
+    }
+    .doing {
+        min-width: 500px;        
+    }
+    .doing div {
+        width: 100%;
+    }
+    .mission {
+        min-width: 500px;
+    }
+    .mission div {
+        width: 100%;
+    }
+    .event {
+        min-width: 500px;
+    }
+   .gallery {
+       min-width: 500px;
+   }
+   .gallery .images div{
+        width: 50%;        
+    }
+    .ft {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+}
